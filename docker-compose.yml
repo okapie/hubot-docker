@@ -1,0 +1,6 @@
+hubot:
+  build: .
+  env_file: ~/.hubot-docker.env
+  environment:
+    - HUBOT_SLACK_TOKEN
+    - HUBOT_HEROKU_KEEPALIVE_URL
