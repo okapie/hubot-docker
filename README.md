@@ -2,14 +2,14 @@
 
 This project is to work Hubot on Docker.
 
-Before building a docker container, you need to set up .hubot-docker.env in your local.
+Before building a docker container, you need to set up .env in your project root directory.
 
-Specify secret variables in .hubot-docker.env.
+Specify secret variables in .env.
 ```
-export HUBOT_SLACK_TOKEN={Your HUBOT_SLACK_TOKEN}
-export HUBOT_SLACK_TEAM={Your HUBOT_SLACK_TEAM}
-export HUBOT_SLACK_BOTNAME={Your HUBOT_SLACK_BOTNAME}
-export HUBOT_HEROKU_KEEPALIVE_URL={Your HUBOT_HEROKU_KEEPALIVE_URL}
+HUBOT_SLACK_TOKEN={Your HUBOT_SLACK_TOKEN}
+HUBOT_SLACK_TEAM={Your HUBOT_SLACK_TEAM}
+HUBOT_SLACK_BOTNAME={Your HUBOT_SLACK_BOTNAME}
+HUBOT_HEROKU_KEEPALIVE_URL={Your HUBOT_HEROKU_KEEPALIVE_URL}
 ```
 
 To work Hubot, try to run the following command.
